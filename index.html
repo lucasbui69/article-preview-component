@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Article preview component</title>
+  <!-- CSS Link -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- JS link -->
+  <script defer src="./main.js" alt="'main JS file"></script>
+  <!-- Google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Outfit:wght@100..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Urbanist:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap"
+    rel="stylesheet">
+
+  <!-- Font awesome -->
+  <script src="https://kit.fontawesome.com/51d2fcd7df.js" crossorigin="anonymous"></script>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+
+  </style>
+</head>
+
+<body>
+  <main class="container">
+    <article class="card">
+      <div class="card-image">
+        <img class='image' src="./images/drawers.jpg" alt="profileimg">
+      </div>
+
+      <div class="card-content">
+        <h1>
+          Shift the overall look and feel by adding these wonderful
+          touches to furniture in your home
+        </h1>
+        <div class="content">
+          Ever been in a room and felt like something was missing? Perhaps
+          it felt slightly bare and uninviting. I’ve got some simple tips
+          to help you make any room feel complete.
+        </div>
+
+        <div class="user-profile">
+          <div class="user-avatar">
+            <img src="./images/avatar-michelle.jpg" alt="ava" srcset="">
+          </div>
+          <div class="user">
+            <h3>Michelle Appleton</h3>
+            28 Jun 2020
+          </div>
+          <div class="share">
+            <div class="share-box">
+              <span>SHARE</span>
+              <span style="color: white;">
+                <i class="fa-brands fa-square-facebook"></i>
+              </span>
+              <span style="color: white;">
+                <i class="fa-brands fa-twitter"></i>
+              </span>
+              <span style="color: white;">
+                <i class="fa-brands fa-pinterest"></i>
+              </span>
+            </div>
+            <div class="share-box-tip"></div>
+            <span style="color: white;" id="share-btn-mobile">
+              <i class="fa-solid fa-share"></i>
+            </span>
+          </div>
+
+
+        </div>
+      </div>
+      <!-- Sharebox mobile -->
+      <div class="share-box-mobile">
+        <div class="left-panel">
+          <div class="share-word">SHARE</div>
+          <div class="logos">
+            <span style="color: white;">
+              <i class="fa-brands fa-square-facebook"></i>
+            </span>
+            <span style="color: white;">
+              <i class="fa-brands fa-twitter"></i>
+            </span>
+            <span style="color: white;">
+              <i class="fa-brands fa-pinterest"></i>
+            </span>
+          </div>
+        </div>
+        <div class="right-panel" id="share-btn-mobile">
+          <span style="color: white;">
+            <i class="fa-solid fa-share"></i>
+          </span>
+        </div>
+      </div>
+    </article>
+
+  </main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Lucas Bui</a>.
+  </div>
+</body>
+
+</html>
